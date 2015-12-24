@@ -41,6 +41,23 @@ $ rails -v
 Rails 4.2.5
 ```
 
+## プロジェクト作成
+
+```sh
+$ mkdir helloworld && cd helloworld
+$ rails new ./
+```
+`json`がないと言われる。
+
+```sh
+An error occurred while installing json (1.8.3), and Bundler cannot continue.
+Make sure that `gem install json -v '1.8.3'` succeeds before bundling.
+```
+
+```sh
+$ sudo gem install json
+```
+
 
 ## Links
 
