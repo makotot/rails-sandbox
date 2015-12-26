@@ -48,6 +48,9 @@ $ mkdir helloworld && cd helloworld
 $ sudo rails new ./
 ```
 
+`bundle install`は`rails`が実行しているので不要。
+
+
 
 
 ## Links
