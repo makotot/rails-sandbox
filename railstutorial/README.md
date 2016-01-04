@@ -194,4 +194,5 @@ $ vagrant ssh
 - [vagrantで仮想環境を手軽に構築する | dev.wan.co](http://k-shogo.github.io/article/2013/09/25/vagrant/)
 - [[Mac] rails-dev-boxで環境構築 - Qiita](http://qiita.com/yamagh/items/b37d21debd2487c50d82)
 - [Vagrantの基本 - Qiita](http://qiita.com/kidach1/items/e63c1607705178aa257c)
+- [rails/rails-dev-box](https://github.com/rails/rails-dev-box)
 
