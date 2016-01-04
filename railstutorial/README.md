@@ -160,6 +160,34 @@ end
 ```
 
 
+## Vagrant
+
+`vagrant`と`virtualbox`を`homebrew`でインストールする。
+
+```sh
+$ brew cask install virtualbox
+$ brew cask install vagrant
+```
+
+Railsの開発環境を`rails-dev-box`でつくる。
+
+```sh
+$ ghq get rails/rails-dev-box
+$ cd rails/rails-dev-box
+```
+
+VMを起動する。
+```sh
+$ vagrant up
+```
+
+起動がうまくいけば、仮想環境にログインできる。
+```sh
+$ vagrant ssh
+```
+
+
+
 ## Links
 
 - [Rails tutorial](http://railstutorial.jp/)
